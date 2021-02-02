@@ -4,12 +4,14 @@
 ## Overview
 
 This library implements request signing using the [Tencent QCloud Signature XML
-Version][docs] specification. We can use this signature to request objects from
+Version]([docs]) specification. We can use this signature to request objects from
 COS an proxy them with Nginx (Openresty or [lua-nginx-module](https://github.com/openresty/lua-nginx-module)).
 
-这个库用用于生成腾讯云 COS 对象储存的[请求签名][docs]，故可用于配置 Nginx (需要安装
+这个库用于生成腾讯云 COS 对象储存的[请求签名 (XML version)][docs]，故可用于配置 Nginx (需要安装
 Openresty 或者编译 [lua-nginx-module](https://github.com/openresty/lua-nginx-module))
 反代理私有仓库。
+
+[docs]: https://cloud.tencent.com/document/product/436/7778#.E5.87.86.E5.A4.87.E5.B7.A5.E4.BD.9C
 
 ## Usage
 
